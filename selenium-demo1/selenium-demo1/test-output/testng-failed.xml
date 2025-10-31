@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Bai8.BTVN">
+      <class name="Bai8.BTVN2">
         <methods>
+          <include name="testLovateElements"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testLovateElements"/>
         </methods>
-      </class> <!-- Bai8.BTVN -->
+      </class> <!-- Bai8.BTVN2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
